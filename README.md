@@ -1,6 +1,6 @@
 # indicclient
 
-## Portugues
+## Português
 
 
 Plugin para WordPress que cria um formulário para a indicação de clientes.

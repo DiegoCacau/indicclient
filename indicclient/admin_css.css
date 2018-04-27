@@ -1,0 +1,95 @@
+#indc_main{
+	background-color: white;
+	width: 100%;
+	height: auto;
+}
+
+.td_indic_1{
+	width: auto;
+	min-width: 100px;
+	text-align: center;
+}
+
+.td_indic_2{
+	width: auto;
+	text-align: center;
+	padding-left: 10px;
+}
+
+.marcado{
+	background-color: yellow; 
+}
+
+#div_esq_indic{
+	float: left;
+}
+
+#div_dir_indic{
+	float: left;
+	margin-left: 50px;
+}
+
+
+.indic_none{
+	display:none;
+}
+
+.tr_clicada{
+	background-color: #33CCFF;
+}
+
+.td_pendente{
+	background-color: red !important;
+}
+
+.td_assinado{
+	background-color: #33CCFF !important;
+}
+
+.td_agendado{
+	background-color: yellow !important;
+}
+
+#div_tabela_ind{
+	overflow-x: hidden;
+	overflow-y: scroll;
+	max-height: 500px;
+
+}
+
+
+ul.tabs{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul.tabs li{
+    background: none;
+    color: #222;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+ul.tabs li.current{
+    background: #ededed;
+    color: #222;
+}
+
+.tab-content{
+    display: none;
+    background: #ededed;
+    padding: 15px;
+}
+
+.tab-content.current{
+    display: inherit;
+}
+
+#indicclient_status{
+	margin-top: 30px;
+}
+.td_agendado, .td_assinado, .td_pendente{
+	padding-right: 10px;
+}
